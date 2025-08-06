@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #f0f4f8;
     font-family: Arial, sans-serif;
@@ -58,4 +59,34 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background: #1a4fa0;
+=======
+body{
+    font-size: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #af574c;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}   
+.about {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .about {
+        flex-direction: column;
+        
+    }
+    
+>>>>>>> 20f017cda9463e288a18871cc5bd4b0e164680c8
 }
